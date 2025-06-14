@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Details - Estatein</title>
+    <link rel="stylesheet" href="Home-style.css">
+    </head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Estatein</a>
+                <ul class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="ProperstiesPage.html">Properties</a>
+                    <a href="Services.html">Services</a>
+                </ul>
+                <div class="auth-buttons">
+                    <button class="btn login">Log In</button>
+                    <button class="btn signup">Sign Up</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="property-details-hero-section">
+            <div class="container">
+                <h1>Seaside Serenity Villa</h1>
+                <p class="property-location">Spain, Altea</p>
+
+                <div class="property-gallery">
+                    <div class="main-image">
+                        <img src="images/property1.jpg" alt="Seaside Serenity Villa Main View">
+                    </div>
+                    <div class="thumbnail-grid">
+                        <img src="images/property1.jpg" alt="Thumbnail 1">
+                        <img src="images/property-details-thumb2.jpg" alt="Thumbnail 2">
+                        <img src="images/property-details-thumb3.jpg" alt="Thumbnail 3">
+                        <img src="images/property-details-thumb4.jpg" alt="Thumbnail 4">
+                    </div>
+                </div>
+
+                <div class="property-overview-grid">
+                    <div class="property-description">
+                        <h3>Description</h3>
+                        <p>A stunning villa with breathtaking sea views, nestled in the serene town of Altea. This property combines modern architecture with luxurious living, offering an unparalleled lifestyle. Enjoy spacious interiors, a private infinity pool, and direct access to the Mediterranean coast. Designed for comfort and elegance, it's the perfect retreat.</p>
+                        <ul class="amenities-list">
+                            <li><img src="icons/icon-bed.svg" alt="Bed"> 5 Beds</li>
+                            <li><img src="icons/icon-bath.svg" alt="Bath"> 6 Baths</li>
+                            <li><img src="icons/icon-area.svg" alt="Area"> 2,000 sq ft</li>
+                            <li><img src="icons/icon-garage.svg" alt="Garage"> 2 Garages</li>
+                        </ul>
+                    </div>
+                    <div class="property-tour-schedule">
+                        <h3>Schedule a Tour</h3>
+                        <p>Select your convenient date and time for a property tour.</p>
+                        <form class="tour-form">
+                            <input type="date" id="tourDate" name="tourDate" required>
+                            <select id="tourTime" name="tourTime" required>
+                                <option value="">Select Time</option>
+                                <option value="09:00">09:00 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="11:00">11:00 AM</option>
+                                <option value="14:00">02:00 PM</option>
+                                <option value="15:00">03:00 PM</option>
+                            </select>
+                            <button type="submit" class="btn">Schedule Your Tour</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="inquire-section">
+            <div class="container">
+                <h2>Inquire About Seaside Serenity Villa</h2>
+                <form class="inquire-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="inquireFirstName">First Name</label>
+                            <input type="text" id="inquireFirstName" name="firstName" placeholder="Enter your first name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inquireLastName">Last Name</label>
+                            <input type="text" id="inquireLastName" name="lastName" placeholder="Enter your last name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inquireEmail">Email</label>
+                            <input type="email" id="inquireEmail" name="email" placeholder="Enter your email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="inquirePhone">Phone</label>
+                            <input type="tel" id="inquirePhone" name="phone" placeholder="Enter your phone number">
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="inquireMessage">Message</label>
+                        <textarea id="inquireMessage" name="message" rows="5" placeholder="Enter your message here..."></textarea>
+                    </div>
+                    <div class="form-checkbox-group">
+                        <input type="checkbox" id="inquireTerms" name="terms">
+                        <label for="inquireTerms">I agree with Terms of Use and Privacy Policy</label>
+                    </div>
+                    <button type="submit" class="btn submit-form-button">Send Your Request</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="pricing-details-section">
+            <div class="container">
+                <h2>Comprehensive Pricing Details</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card main-price">
+                        <h3>Sale Price</h3>
+                        <p class="price-value">$1,250,000</p>
+                    </div>
+
+                    <div class="pricing-card">
+                        <h3>Mortgage Info</h3>
+                        <p><span>Interest Rate:</span> 4.5%</p>
+                        <p><span>Loan Term:</span> 30 Years</p>
+                        <p><span>Monthly Payment:</span> $6,325</p>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Property Taxes</h3>
+                        <p><span>Annual Tax:</span> $12,000</p>
+                        <p><span>Last Assessed:</span> 2024</p>
+                        <p><span>Tax ID:</span> #123-456-789</p>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>HOA Dues</h3>
+                        <p><span>Monthly Fee:</span> $250</p>
+                        <p><span>Includes:</span> Landscaping, Security</p>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Insurance</h3>
+                        <p><span>Annual Premium:</span> $3,500</p>
+                        <p><span>Provider:</span> SureCover Insurance</p>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Utilities</h3>
+                        <p><span>Estimated Monthly:</span> $400</p>
+                        <p><span>Includes:</span> Water, Electricity, Gas</p>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Other Fees</h3>
+                        <p><span>Closing Costs:</span> 2-5% of Sale Price</p>
+                        <p><span>Legal Fees:</span> $1,500</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>Is this property suitable for foreign buyers?</h3>
+                        <p>Yes, foreign buyers are welcome. We have experience assisting international clients.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What documents do I need to secure my property?</h3>
+                        <p>Typically, a passport, proof of funds, and a valid visa if applicable.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>How can I contact an Estatein agent?</h3>
+                        <p>You can use the inquiry form on this page or visit our contact page.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I get a virtual tour of the property?</h3>
+                        <p>Yes, we offer high-quality virtual tours. Please schedule a tour above.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Are there any hidden fees or charges?</h3>
+                        <p>All known fees are listed in the pricing details section. We believe in transparency.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What are the nearby amenities and facilities?</h3>
+                        <p>The property is close to beaches, restaurants, and local attractions. Details provided during tour.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Start Your Real Estate Journey Today</h2>
+                <p>Your dream property is just a click away.</p>
+                <button class="btn cta-button">Explore Properties</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">Estatein</div>
+                <div class="social-links">
+                    <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="footer-nav-grid">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Properties</h4>
+                    <ul>
+                        <li><a href="#">Residential</a></li>
+                        <li><a href="#">Commercial</a></li>
+                        <li><a href="#">Rentals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Estatein. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
